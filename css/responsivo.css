@@ -1,0 +1,200 @@
+/*Tablet*/
+
+@media only screen and (min-width: 788px) and (max-width: 979px){
+    /*Home*/
+    .header{
+        position: relative;
+        height: 80px
+    }
+    .nav-logo {
+        display: inline-block;
+        margin: 5px auto;
+       
+    }
+    .nav-header{
+        margin-top: 5px;
+        text-align: center;
+    }
+    .nav-header ul li{
+        margin: 2px;
+    }
+    .nav-header ul li a{
+        text-align: center;
+       
+        width: 130px;
+        padding: 10px ;
+       display: block;
+    }
+    .nav-header ul li a:hover{
+     border-color: #fff;
+    }
+    .intro{
+       margin-top: -30px; 
+       padding-top: 20px;
+    }
+    .pacotes{
+        height: 100%;
+    }
+    .pacotes .btn-card{
+        height: 80px;
+        padding: 20px 0;
+        margin-top: 0;
+    }
+    /*pacotes*/
+    /*pacotes*/
+    .lista-pacotes .card .card-tag-bottom{
+        top: 190px;
+    }
+    .card-content h3{
+        padding: 30px 30px 10px;
+        font-size: 20px;
+        text-transform: uppercase;
+        
+    }
+    h4{
+        padding-left: 20px;
+        font-size: 15px;
+        color: #707070; 
+    }
+    .card2{
+        height: 90px;
+        
+    }
+    .card2 .preco{
+        padding-left: 25px;
+        font-size: 20px;
+       
+    }
+    .btn-reserva{
+        position: relative;
+        font-size: 15px;
+        top: -50px;
+        left: 230px;
+    }
+    
+    /*footer*/
+    .footer-redes ul li a {
+        
+        display: block;
+        padding: 6px;
+    
+    }
+    
+    .footer-redes ul li a img{
+        width: 46px;
+        height: 46px;
+    }
+}
+
+/*Smartphone*/
+@media only screen and (max-width: 787px) {
+	/*Header - home*/
+    .header{
+        position: relative;
+        padding-bottom: 0;
+    }
+    .nav-logo {
+        display: inline-block;
+        margin: 0 auto;
+       
+    }
+    .nav-header{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .nav-header ul li{
+        margin: 5px;
+    }
+    .nav-header ul li a{
+        border: 4px solid #3E0909;
+        width: 136px;
+        padding: 10px;
+       display: block;
+       float: left;
+    }
+    .nav-header ul li a:hover{
+     border-color: #fff;
+    }
+    .intro{
+       margin-top: -30px; 
+       padding-top: 20px;
+    }
+    .pacotes{
+        height: 100%;
+    }
+    .pacotes .btn-card{
+        height: 80px;
+        padding: 20px 0;
+        margin-top: 0;
+    }
+    /*destinos*/
+    .pais{
+        font-size: 20px;
+        top: -100px;
+    }
+    /*pacotes*/
+    .lista-pacotes .card .card-tag-bottom{
+        top: 155px; 
+        font-size: 10px; 
+    }
+    .lista-pacotes{
+        height: 100%;
+    }
+    .card{
+        margin-top: 20px;
+    }
+    .card-content{
+        background: #fff;
+        height: 150px;
+    }
+    .card-content p{
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+    .lista-pacotes .card{
+        position: relative;
+    }
+    .card-content h3{
+        padding: 20px 20px 10px;
+        font-size: 15px;
+        text-transform: uppercase;
+        
+    }
+    .lista-itens{
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .card1{
+        margin-top: 0px;
+    }
+    .card1::after{
+        content: "";
+        display: block;
+        border: 1px solid rgba(0, 0, 0, 0.658);
+    }
+    h4{
+        padding-left: 20px;
+        font-size: 15px;
+        color: #707070; 
+    }
+    .card2{
+        height: 90px;
+        
+    }
+    .card2 .preco{
+        padding-left: 30px;
+        font-size: 20px;
+       
+    }
+    .btn-reserva{
+        position: relative;
+        font-size: 15px;
+        top: -50px;
+        left: 170px;
+    }
+    /*contato*/
+    .form-contato{
+        padding-right: 0;
+    }
+    
+}

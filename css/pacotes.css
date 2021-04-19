@@ -1,0 +1,79 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sub-h2{
+    margin-top: 30px;
+}
+.img-header{
+    background: url("../imagens/bg-pacotes2.jpg") no-repeat center;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+}
+.lista-pacotes{
+    width: 100%;
+    height: 1210px;
+    margin-bottom: 40px;
+    background: #3E0909;
+}
+.card{
+    margin-top: 30px;
+}
+.card-content{
+    background: #fff;
+    height: 200px;
+}
+.card-content p{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.lista-pacotes .card{
+    position: relative;
+}
+.lista-pacotes .card .card-tag-bottom{
+    position: absolute;
+    color: white;
+    left: 10px;
+    top: 242px;
+    background-color: #0C082D;
+    padding: 8px;
+}
+.card-content h3{
+    padding: 30px 30px 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    
+}
+.lista-itens{
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+.card1{
+    margin-top: 0px;
+}
+.card1::after{
+    content: "";
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.658);
+}
+h4{
+    padding-top: 0;
+    padding-left: 30px;
+    font-size: 15px;
+    color: #707070; 
+}
+.card2{
+    height: 90px;
+    
+}
+.card2 .preco{
+    padding-left: 40px;
+    font-size: 30px;
+   
+}
+.btn-reserva{
+    position: relative;
+    top: -60px;
+    left: 300px;
+}

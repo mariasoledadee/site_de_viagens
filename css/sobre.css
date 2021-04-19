@@ -1,0 +1,26 @@
+.interno-intro{
+    width: 100%;
+    height: 350px;
+    background: url("../imagens/bg-sobre2.jpg") no-repeat center;
+    background-size: cover;
+}
+.sobre{
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.sobre p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 60px;
+}
+.valores{
+    margin-bottom: 40px;
+}
+.valores h3{
+    padding-top: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}

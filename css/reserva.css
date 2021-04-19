@@ -1,0 +1,6 @@
+.img-reserva{
+    background: url("../imagens/bg-header.jpg") no-repeat center;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
